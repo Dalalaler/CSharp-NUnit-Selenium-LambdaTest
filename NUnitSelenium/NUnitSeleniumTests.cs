@@ -19,11 +19,11 @@ namespace NUnitSelenium
     [Parallelizable(ParallelScope.Children)]
     public class NUnitSeleniumSample
     {
-        public static string LT_USERNAME = Environment.GetEnvironmentVariable("LT_USERNAME") ==null ? "your username" : Environment.GetEnvironmentVariable("LT_USERNAME");
-        public static string LT_ACCESS_KEY = Environment.GetEnvironmentVariable("LT_ACCESS_KEY") == null ? "your accessKey" : Environment.GetEnvironmentVariable("LT_ACCESS_KEY");
+        public static string LT_USERNAME = Environment.GetEnvironmentVariable("LT_USERNAME") ==null ? "dalalaler" : Environment.GetEnvironmentVariable("LT_USERNAME");
+        public static string LT_ACCESS_KEY = Environment.GetEnvironmentVariable("LT_ACCESS_KEY") == null ? "SGCXdpkI9iLZ1hiJPBnEtiDGejPkqDDUl71t64vyzi93F4Mn9e" : Environment.GetEnvironmentVariable("LT_ACCESS_KEY");
         public static bool tunnel = Boolean.Parse(Environment.GetEnvironmentVariable("LT_TUNNEL")== null ? "false" : Environment.GetEnvironmentVariable("LT_TUNNEL"));       
-        public static string build = Environment.GetEnvironmentVariable("LT_BUILD") == null ? "your build name" : Environment.GetEnvironmentVariable("LT_BUILD");
-        public static string seleniumUri = "https://hub.lambdatest.com:443/wd/hub";
+        public static string build = Environment.GetEnvironmentVariable("LT_BUILD") == null ? "Demo for Eugeny" : Environment.GetEnvironmentVariable("LT_BUILD");
+        public static string seleniumUri = "https://USERNAME:ACCESS_KEY@hub.lambdatest.com/wd/hub";
 
 
         ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>();

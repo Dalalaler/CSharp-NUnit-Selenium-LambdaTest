@@ -403,20 +403,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DellUser\\.nuget\\packages\\": {}
+    "C:\\Users\\Danila.Vouk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ML-Script\\NUnit-Selenium-Sample-master\\NUnit-Selenium-Sample-master\\NUnitSelenium\\NUnitSelenium.csproj",
+      "projectUniqueName": "D:\\.Net\\Projects\\LambdaDemo\\NUnitSelenium\\NUnitSelenium.csproj",
       "projectName": "NUnitSelenium",
-      "projectPath": "D:\\ML-Script\\NUnit-Selenium-Sample-master\\NUnit-Selenium-Sample-master\\NUnitSelenium\\NUnitSelenium.csproj",
-      "packagesPath": "C:\\Users\\DellUser\\.nuget\\packages\\",
-      "outputPath": "D:\\ML-Script\\NUnit-Selenium-Sample-master\\NUnit-Selenium-Sample-master\\NUnitSelenium\\obj\\",
+      "projectPath": "D:\\.Net\\Projects\\LambdaDemo\\NUnitSelenium\\NUnitSelenium.csproj",
+      "packagesPath": "C:\\Users\\Danila.Vouk\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net\\Projects\\LambdaDemo\\NUnitSelenium\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\DellUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Danila.Vouk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
